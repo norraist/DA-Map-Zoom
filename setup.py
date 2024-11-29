@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="DA-Map-Zoom",
+    name="foundry_map_tool",
     version="0.1.0",
     description="A tool to adjust the scale of maps in JSON files for Foundry VTT.",
     author="Rory Burke",
