@@ -3,10 +3,9 @@ from pathlib import Path
 from sys import base_prefix
 import json
 
-
-def main():
+def adjust_map(scale_factor=2):
     """
-    Main function to adjust the scale of a map in a JSON file.
+    Adjust the scale of a map in a JSON file.
     This function sets the environment variables for TCL and TK libraries, 
     opens a file dialog to select a JSON file, and adjusts the scale of various 
     elements in the map based on a specified scale factor. The adjusted map is 
@@ -30,8 +29,6 @@ def main():
     import tkinter as tk
     from tkinter import filedialog
 
-    scale_factor = 2 # Change this to adjust the scale factor, a "2" puts 4 squares in the space of 1. In theory 4 would work but Foundry can only handle grid size down to 20px, 4 would be 18px.
-    
     # Choose the file to load from data folder
     root = tk.Tk()
     root.withdraw()  # Hide the root window
@@ -102,6 +99,5 @@ def main():
 
     return
 
-
 if __name__ == "__main__":
-    main()
+    adjust_map()

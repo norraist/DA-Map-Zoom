@@ -4,7 +4,13 @@ This utility takes the JSON from either a DA map export or from a Foundry VTT ma
 
 ## Installation
 
-Clone the repository and install the package using pip:
+pip install foundry-map-tool
+
+## Usage
+
+from Foundry_Map_Tool import adjust_map
+
+adjust_map()
 
 ## Before
 
