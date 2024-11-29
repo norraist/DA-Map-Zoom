@@ -5,3 +5,11 @@ This utility takes the JSON from either a DA map export or from a Foundry VTT ma
 ## Installation
 
 Clone the repository and install the package using pip:
+
+## Before
+
+![image](https://github.com/user-attachments/assets/c5c1bdec-e90c-40bd-8c76-a9415f222f13)
+
+## After
+
+![image](https://github.com/user-attachments/assets/a507c128-0c2c-43d0-bd60-4d2fb49b6b82)
