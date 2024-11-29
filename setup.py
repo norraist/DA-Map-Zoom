@@ -5,7 +5,7 @@ setup(
     version="0.1.3",
     description="A tool to adjust the scale of maps in JSON files for Foundry VTT.",
     author="Rory Burke",
-    author_email="RoryABurke+DAMapToll@gmail.com",
+    author_email="RoryABurke+DAMapTool@gmail.com",
     packages=find_packages(),
     install_requires=[
         "pandas>=2.2.3",
