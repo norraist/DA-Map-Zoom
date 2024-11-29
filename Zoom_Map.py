@@ -99,5 +99,8 @@ def adjust_map(scale_factor=2):
 
     return
 
-if __name__ == "__main__":
+def main():
     adjust_map()
+
+if __name__ == "__main__":
+    main()
