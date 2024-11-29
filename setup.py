@@ -7,9 +7,7 @@ setup(
     author="Rory Burke",
     author_email="RoryABurke+DAMapTool@gmail.com",
     packages=find_packages(),
-    install_requires=[
-        "pandas>=2.2.3",
-    ],
+    install_requires=[],
     entry_points={
         'console_scripts': [
             'foundry-map-tool=foundry_map_tool:adjust_map',
