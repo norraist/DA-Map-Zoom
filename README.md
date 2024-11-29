@@ -8,7 +8,7 @@ pip install foundry-map-tool
 
 ## Usage
 
-from Foundry_Map_Tool import adjust_map
+from foundry_map_tool import adjust_map
 
 adjust_map()
 
