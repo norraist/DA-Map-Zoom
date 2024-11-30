@@ -2,11 +2,11 @@ from setuptools import setup, find_packages
 
 setup(
     name="foundry_map_tool",
-    version="0.1.4",
+    version="0.1.5",
     description="A tool to adjust the scale of maps in JSON files for Foundry VTT.",
     author="Rory Burke",
     author_email="RoryABurke+DAMapTool@gmail.com",
-    packages=find_packages(),
+    packages=find_packages(include=['foundry_map_tool', 'foundry_map_tool.*']),
     install_requires=[],
     entry_points={
         'console_scripts': [
