@@ -12,6 +12,8 @@ from foundry_map_tool import adjust_map
 
 adjust_map()
 
+(install will create a data folder in project folder for output)
+
 ## Before
 
 ![image](https://github.com/user-attachments/assets/c5c1bdec-e90c-40bd-8c76-a9415f222f13)
