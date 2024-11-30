@@ -10,9 +10,9 @@ pip install foundry-map-tool
 
 from foundry_map_tool import adjust_map
 
-adjust_map()
+    adjust_map()
 
-(install will create a data folder in project folder for output)
+
 
 ## Before
 

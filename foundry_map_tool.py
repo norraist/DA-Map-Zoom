@@ -94,8 +94,14 @@ def adjust_map(scale_factor=2):
 
             
     name = map_info["name"] + "_adjusted.json"
-    with open(rf"data\{name}", "w") as file:
-        json.dump(map_info, file, indent=(1 * scale_factor))
+    # Save the adjusted data with tkinter file dialog
+    file_path = filedialog.asksaveasfilename(
+        initialdir="data",
+        title="Save file as",
+        filetypes=(("JSON files", "*.json"), ("all files", "*.*")),
+        initialfile=name,
+    )
+
 
     return
 
