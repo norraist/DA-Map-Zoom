@@ -6,7 +6,7 @@ setup(
     description="A tool to adjust the scale of maps in JSON files for Foundry VTT.",
     author="Rory Burke",
     author_email="RoryABurke+DAMapTool@gmail.com",
-    packages=find_packages(include=['foundry_map_tool', 'foundry_map_tool.*']),
+    py_modules=['foundry_map_tool'],
     install_requires=[],
     entry_points={
         'console_scripts': [
