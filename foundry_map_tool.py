@@ -102,6 +102,12 @@ def adjust_map(scale_factor=2):
         initialfile=name,
     )
 
+    if not file_path:
+        raise ValueError("No file selected")
+    
+    with open(file_path, "w") as file:
+        json.dump(map_info, file, indent=4)
+        
 
     return
 
